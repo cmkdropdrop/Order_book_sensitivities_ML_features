@@ -13,14 +13,9 @@ Features are derived from individual snapshots of the book and then "as‑of" me
 A detailed description of each feature is available in [`docs/features_cheatsheet.md`](docs/features_cheatsheet.md).
 
 ## Determining relevance
-The `shap-analysis` command (see [`src/orderbook_liquidity`](src/orderbook_liquidity)) trains an XGBoost model on labelled bars and computes SHAP values to attribute importance. Features with larger mean absolute SHAP values are considered more informative. Running
+The `shap-analysis` command (see [`src/orderbook_liquidity`](src/orderbook_liquidity)) trains an XGBoost model on labelled bars and computes SHAP values to attribute importance. Features with larger mean absolute SHAP values are considered more informative. The code produces bar and summary plots for each target class under `docs/images/`. Below is an example output:
 
-```bash
-shap-analysis --symbol BTCUSDT
-```
-produces bar and summary plots for each target class under `docs/images/`. Below is an example output:
-
-![SHAP bar plot](docs/images/shap_importance_1.0.png)
+![SHAP bar plot](docs/images/shap_summary_-1.0.png)
 
 For a complete walkthrough check [`docs/EXAMPLE_RESULTS.md`](docs/EXAMPLE_RESULTS.md).
 
