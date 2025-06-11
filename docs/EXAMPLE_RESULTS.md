@@ -25,7 +25,7 @@ _Illustrative SHAP analysis of liquidity-curve features_
 
 ## 2. Global SHAP feature importance  
 
-| Rank | Feature | mean(|SHAP|) (up-move) | mean(|SHAP|) (down-move) |
+| Rank | Feature | mean(\|SHAP\|) (up-move) | mean(\|SHAP\|) (down-move) |
 |------|---------|-----------------------|-------------------------|
 | 1 | **bid_slope** | 0.086 | 0.062 |
 | 2 | sensi_depth_vs_price_increase | 0.079 | 0.066 |
@@ -39,7 +39,7 @@ _Illustrative SHAP analysis of liquidity-curve features_
 
 | Up-move target (+1) | Down-move target (-1) |
 |---------------------|-----------------------|
-| ![SHAP importance +1](shap_importance_1.0.png) | ![SHAP importance -1](shap_importance_-1.0.png) |
+| ![SHAP importance +1](images/shap_importance_1.0.png) | ![SHAP importance -1](images/shap_importance_-1.0.png) |
 
 </details>
 
@@ -49,7 +49,7 @@ _Illustrative SHAP analysis of liquidity-curve features_
 
 | Up-move target (+1) | Down-move target (-1) |
 |---------------------|-----------------------|
-| ![SHAP summary +1](shap_summary_1.0.png) | ![SHAP summary -1](shap_summary_-1.0.png) |
+| ![SHAP summary +1](images/shap_summary_1.0.png) | ![SHAP summary -1](images/shap_summary_-1.0.png) |
 
 ---
 
