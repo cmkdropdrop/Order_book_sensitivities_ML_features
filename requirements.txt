@@ -1,0 +1,12 @@
+# Runtime
+pandas>=2.0
+numpy>=1.22
+matplotlib>=3.8
+xgboost>=2.0
+shap>=0.45
+
+# Development / CI
+pytest>=8.0
+black>=24.0
+ruff>=0.4
+pre-commit>=3.7

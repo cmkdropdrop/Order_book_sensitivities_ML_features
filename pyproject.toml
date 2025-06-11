@@ -1,0 +1,16 @@
+[project]
+name = "orderbook-liquidity"
+version = "0.1.0"
+description = "Order‑book liquidity feature engineering & SHAP attribution"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.22",
+    "matplotlib>=3.8",
+    "xgboost>=2.0",
+    "shap>=0.45",
+]
+
+[project.scripts]
+shap-analysis = "orderbook_liquidity.cli:main"
